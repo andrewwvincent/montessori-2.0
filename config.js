@@ -180,6 +180,20 @@ export const config = {
                 '#No-Contract': '#FFC107',
                 '#Fusion': '#9C27B0'
             }
+        },
+        {
+            id: 'Montessori 2.0',
+            name: 'Montessori 2.0',
+            file: 'data/montessori-2.0.kml',
+            defaultShape: 'hexagon',  // This location uses hexagons
+            defaultChecked: false,
+            defaultLabels: false,
+            styles: {
+                '#Location': '#4CAF50',
+                '#Active': '#2196F3',
+                '#No-Contract': '#FFC107',
+                '#Fusion': '#9C27B0'
+            }
         }
     ]
 };
